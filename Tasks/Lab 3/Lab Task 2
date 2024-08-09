@@ -1,0 +1,19 @@
+/* Lab Task Problem 2 */
+Start 
+Declare integer Side 1
+Declare integer Side 2
+Declare integer Side 3
+Take input Side 1 from user
+Take input Side 2 from user
+Take input Side 3 from user
+If Side 1 != Side 2 and Side 1 != Side 3 and Side 2 != Side 3 then 
+Display Scalene Triangle
+Else If Side 1=Side 2 and Side 1!=Side 3 and Side 2 != Side 3 or Side 2=Side 3 and Side 1 != Side 3 and Side 1 != Side 2 then
+Display Isosceles Triangle
+Else if Side 1 = Side 2 = Side 3 then 
+Display Equilateral Triangle 
+Else if (Side 1)² = (Side 2)² + (Side 3)² or (Side 2)² = (Side 1)² + (Side 3)² or (Side 3)² = (Side 1)² + (Side 2)² then 
+Display Right-Angle Triangle  
+End if 
+End 
+

@@ -1,0 +1,64 @@
+1)
+
+#include <iostream>
+using namespace std;
+int main()
+{
+int sum,sub,mult,div,module;
+int a,b;
+cout<<"Enter value of a ="
+cin<<a;
+cout<<"Enter value of b =;
+cin<<b;
+sum=a+b;
+sub=a-bmult=a*b;
+div=a/'b';
+module=a%b;
+}
+  
+2)
+
+#include <iostream>
+using namespace std;
+int function(int a,int b);
+float function(int a,int b);
+int main()
+{
+int num;
+function (5,7);
+
+}
+int function(int a,int b){    
+ return a+B;   
+    
+}
+
+float function(int a,int b){
+ cout<<a+b;      
+    
+}
+
+3
+#include <iostream>
+using namespace std;
+ void func1(char speed)
+    {
+        cout<<"Func1 with unsigned char: speed =" << speed <<" RPM\n";
+    }
+   void func1(long speed)
+    {
+        cout<<"Func1 with long Int: speed =" << speed <<" RPM\n";
+    }
+    void func1(double speed)
+    {
+        cout<<"Func1 with double: speed =" << speed <<" RPM\n";
+    }
+    int main(void)
+    {
+        func1(1);
+        func1(3.4f);
+        return(0);
+    }
+
+
+

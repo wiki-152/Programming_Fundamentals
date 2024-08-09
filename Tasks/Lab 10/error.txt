@@ -1,0 +1,39 @@
+Problem 01:
+// This program displays the sum of two numbers.
+#include <iostream>
+using namespace std;
+int main()
+{
+     int choice, num1, num2;
+
+     do
+     {
+          cout << "Enter a number: ";
+          cin >> num1;
+          cout << "Enter another number: ";
+          cin >> num2;
+          cout << "Their sum is " << (num1 + num2) << endl;
+          cout << "Do you want to do this again?\n";
+          cout << "1 = yes, 0 = no\n";
+          cin >> choice;
+     } while (choice = 1)
+     return 0;
+}
+
+Problem 02:
+// This program uses a loop to raise a number to a power.
+#include <iostream>
+using namespace std;
+int main()
+{
+        int num, bigNum, power, count;
+        cout << "Enter an integer: ";
+        cin >> num;
+        cout << "What power do you want it raised to? ";
+        cin >> power;
+        bigNum = num;
+        while (count++ < power);
+             bigNum *= num;
+        cout << "The result is << bigNum << endl;
+        return 0;
+}

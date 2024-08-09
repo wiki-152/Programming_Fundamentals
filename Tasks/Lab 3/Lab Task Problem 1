@@ -1,0 +1,18 @@
+/ / Lab Task Problem 1
+Start 
+Declare Integer Age; 
+Take input Age from user;
+If Age=0 or Age<0 then
+Display 'Wrong Age' 
+Else if Age<8 then 
+Display 'Child'
+Else if Age=8 or Age>8 then
+Display 'Boy'
+Else if Age=18 or Age>18 then 
+Display 'Young'
+Else if Age=35 or Age>35 then 
+Display 'Old'
+Else if Age=65 or Age>65 then
+Display 'Very Old'
+End if 
+End   
